@@ -177,6 +177,7 @@ class War_Game:
 
     def play_game(self):
         check_win = self.game_won()
+	""" counter = 0 -> counter = 1 """
         counter = 1
         while(check_win == -1):
             self.check_shuffle()
