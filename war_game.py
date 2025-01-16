@@ -242,7 +242,8 @@ class War_Player:
             self.add_card_hand(self.discard.pop())
 
     def add_win(self):
-        self.record[0] += 1
+	""" self.record[0] += 1 -> self.record[0] += 5"""
+        self.record[0] += 5
 
     def add_loss(self):
         self.record[1] += 1
